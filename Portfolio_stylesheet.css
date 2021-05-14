@@ -181,7 +181,7 @@ footer {
 .intro-slide {
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the container fills the width */
-    height: 50px; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
+    height: 100px; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;

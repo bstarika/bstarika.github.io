@@ -3,7 +3,7 @@
 /*Affects entire document */
 html {
     scroll-behavior: smooth; /*This ensures that the page scrolling is smooth when the buttons on the nav bar is clicked */
-    background-color: #495163;
+    background-image: linear-gradient(#ae7f50, white);
 }
 
 /* Body */
@@ -110,8 +110,8 @@ img:hover {
 
 /* Styling for footer element */
 footer {
-    padding: 1%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: #a1692e;
+    padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
+    background-color: white;
 }
 /***** END OF GENERAL STYLING *****/
 
@@ -181,8 +181,9 @@ footer {
 .intro-slide {
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the container fills the width */
-    height: 100%; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
-    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+    height: 390px; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
+    position:relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+    top: 2px;
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
 }
@@ -310,7 +311,8 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    height: 350px; /* This sets the height of the column to 350px -  this may need to be adjusted depending on the text you enter */
+    height: 395px; /* This sets the height of the column to 395px -  this may need to be adjusted depending on the text you enter */
+    color:white;
     background-color: #495163; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -325,7 +327,8 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 350px;
+    height: 395px;
+    color: white;
     background-color: #5a4b44;
 }
 
@@ -335,6 +338,7 @@ footer {
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
 }
+
 /***** END OF TABLE STYLING *****/
 
 /***** CONTACT FORM STYLING *****/
@@ -345,7 +349,7 @@ footer {
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
     background-color: #a1692e; /* Sets the background color of the button to white */
-    color: black; /* Sets the color of the button text to black */
+    color: white; /* Sets the color of the button text to black */
     border: solid black; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
@@ -377,7 +381,7 @@ footer {
 .form-container {
     max-width: 49vw; /* Relative sizing of the form container - 49% of the viewport width */
     padding: 1vw; /* Adds padding between the form-popup and the form-container */
-    background-color: yellow; 
+    background-color: #987761;
 }
 
 /* Input fields */
@@ -421,17 +425,17 @@ button:hover, .form-container .btn:hover {
 
 /* Close button */
 .form-container .cancel {
-    background-color: black;
-    color: #a1692e;
+    background-color: white;
+    color: black;
     border-color: #5a4b44;
 }
 
 /* Styling for close button on hover */
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: #495163;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
-}
+    }
 /***** End of Contact Form Styling *****/

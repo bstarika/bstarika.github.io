@@ -175,9 +175,9 @@ footer {
 }
 /***** END OF NAVBAR STYLING *****/
 
-/***** VIDEO STYLING *****/
-/* Formatting for background video */
-#Typing_Video {
+/***** BCAKGROUND IMAGE STYLING *****/
+/* Formatting for background image */
+#background_image {
     position: fixed; /* This fixes the image to the page */
     right: 0; /* This ensures there is no space between the edge of the imagw and the edge of the page */
     bottom: 0; /* This ensures no space between the bottom of the image and the bottom of the page */
@@ -187,13 +187,13 @@ footer {
 
 /* Screens that are 576px and smaller will not display the background image */
 @media screen and (max-width: 576px) {
-    #Typing_Video {
+    #background_image {
         display: none;
     }
 }
 
-/* Texts over the video */
-.Video_Text {
+/* Texts over the image */
+.Image_Text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
@@ -213,7 +213,7 @@ footer {
 
 /***** Slideshow Styling *****/
 #Slideshow_Background {
-    background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */    
+    background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the image in the background */    
 }
 
 .mySlides{

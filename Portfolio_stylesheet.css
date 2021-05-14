@@ -193,7 +193,7 @@ footer {
 }*/
 
 /* Texts over the image */
-.intro-text {
+.intro-slide {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
@@ -438,8 +438,8 @@ button:hover, .form-container .btn:hover {
 /* Close button */
 .form-container .cancel {
     background-color: black;
-    color: yellow;
-    border-color: saddlebrown;
+    color: #a1692e;
+    border-color: #5a4b44;
 }
 
 /* Styling for close button on hover */

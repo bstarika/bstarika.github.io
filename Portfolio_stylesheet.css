@@ -311,7 +311,7 @@ footer {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #ffa64d; /* Sets the background color of the columns with class Column_1 */
+    background-color: #495163; /* Sets the background color of the columns with class Column_1 */
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */

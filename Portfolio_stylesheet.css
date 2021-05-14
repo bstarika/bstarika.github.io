@@ -197,6 +197,7 @@ footer {
 /***** Slideshow Styling *****/
 #Slideshow_Background {
     background-color: #987761;
+    padding: 4px;
 }
 
 .mySlides{

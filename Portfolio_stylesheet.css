@@ -320,14 +320,14 @@ footer {
 /***** TABLE STYLING -  this section covers the styling of the columns and rows within the table *****/
 * { /* The asterisk is a universal selector that applies this effect to all elements on the page */
     box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */
-} 
+}
 
 .Column_1 {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    height: 600px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #cacaca; /* Sets the background color of the columns with class Column_1 */
+    height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    background-color: # #ffa64d; /* Sets the background color of the columns with class Column_1 */
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -341,8 +341,8 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 600px;
-    background-color: #72737c;
+    height: 500px;
+    background-color: #923e11;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */

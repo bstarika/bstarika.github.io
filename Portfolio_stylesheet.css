@@ -181,7 +181,7 @@ footer {
 .intro-slide {
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the container fills the width */
-    height: 100px; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
+    height: 100%; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
@@ -197,7 +197,6 @@ footer {
 /***** Slideshow Styling *****/
 #Slideshow_Background {
     background-color: #987761;
-    padding: 4px;
 }
 
 .mySlides{
@@ -311,7 +310,7 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    height: 350px; /* This sets the height of the column to 350px -  this may need to be adjusted depending on the text you enter */
     background-color: #495163; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -326,7 +325,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 500px;
+    height: 350px;
     background-color: #5a4b44;
 }
 

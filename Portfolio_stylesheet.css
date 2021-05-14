@@ -193,7 +193,7 @@ footer {
 }*/
 
 /* Texts over the image */
-.Image_Text {
+.intro-text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */

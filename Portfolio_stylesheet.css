@@ -171,7 +171,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: rosybrown;
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -186,18 +186,18 @@ footer {
 }
 
 /* Screens that are 576px and smaller will not display the background image */
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     #background-image {
         display: none;
     }
-}
+}*/
 
 /* Texts over the image */
 .Image_Text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
-    height: 50vh; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
+    height: 100vh; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
     padding-top: 2vh; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
